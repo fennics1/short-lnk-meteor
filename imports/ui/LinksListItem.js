@@ -1,7 +1,7 @@
 import React from 'react';
 import {Meteor} from 'meteor/meteor';
 import PropTypes from 'prop-types';
-import Clipboard from 'Clipboard';
+import Clipboard from 'clipboard';
 import moment from 'moment';
 
 export default class LinksListItem extends React.Component {
