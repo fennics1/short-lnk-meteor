@@ -42,7 +42,7 @@ export default class LogIn extends React.Component {
               <input type="password" ref='passwordref' name="password" placeholder="Password"/>
               <button className="button">Login</button>
             </form>
-            <button onClick={()=>browserHistory.push('/signup')}>Create Account</button>
+            <button onClick={()=>browserHistory.push('/signup')}>Have an Account?</button>
         </div>
       </div>
     );
